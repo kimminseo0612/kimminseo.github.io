@@ -1,0 +1,30 @@
+
+
+---
+layout: single
+title: "bitwise operation"
+---
+#비트 연산자
+{% include video id="yHBYeguDR0A" provider="youtube" %}
+
+**[and & or]**
+and연산자 기호:&
+모든 변수가 1(참)일때 1(참)을 출력하고 하나라도 0(거짓)이면 0(거짓)을 출력하는 연산자
+
+예제
+#include <stdio.h>
+int main()
+{int a, b;
+printf("a, b:");
+scanf("%d%d",
+&a, &b);
+
+if(a == 0 && b>a)
+ printf("b>0이다\n");
+else
+printf("b<0이다\n"); 
+
+return
+0;
+
+}
